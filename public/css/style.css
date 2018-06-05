@@ -1,0 +1,16 @@
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.mh-300 {
+  max-height: 300px;
+}
+
+.mh-600 {
+  max-height: 600px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
