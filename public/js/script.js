@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
 /* Change navbar-item to active based on domain */
 document.addEventListener('DOMContentLoaded', function () {
 
-  var $navbarItems = Array.prototype.slice.call(document.querySelectorAll('.navbar-item'), 0);
+  var $navbarItems = Array.prototype.slice.call(document.querySelectorAll('a.navbar-item[href]'), 0);
   var domain = window.location.host;
 
   $navbarItems.forEach(function ($el) {
